@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from scipy.signal import savgol_filter
 
-cap = cv2.VideoCapture("skipping.mp4")
+cap = cv2.VideoCapture("MyMovie_02_small.mp4")
 # fourcc = cv2.VideoWriter_fourcc('F', 'M', 'P', '4')
 # out = cv2.VideoWriter('output.avi', fourcc, 20.0, (int(cap.get(3)), int(cap.get(4))))
 
